@@ -7,6 +7,8 @@
     linktoc=all,     %set to all if you want both sections and subsections linked
     linkcolor=blue,  %choose some color if you want links to stand out
 }
+\usepackage{mathtools}
+\usepackage{longtable}
 
 \begin{document}
 %\maketitle
@@ -14,6 +16,9 @@
 \include{intro}
 \include{data_elements}
 \include{indicators}
-\include{userManual}
 \appendix
+\include{userManual}
+\include{usage}
+\include{checklist}
+\include{QA}
 \end{document}
